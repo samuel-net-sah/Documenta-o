@@ -1,0 +1,14 @@
+      Passo inicial
+Abra o terminal linux execute  o sequinte comando:
+1- <pre><code>sudo apt update</code><pre>
+2- <pre><code>sudo apt install -y apache2</code></pre>
+Verificar se o apchae2 está ativo:
+3- <pre><code>sudo systemctl status apache2</code><pre>
+    Instalando o git:
+5- <pre><code>sudo apt install -git</code></pre>
+
+      Verifique o IP da maquina:
+7- <pre><code>sudo ip a</code></pre>
+8- Abra o navegador digite o ip da maquina 
+9- 
+
