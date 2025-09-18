@@ -1,0 +1,13 @@
+- Instalando o Apache2 
+Para instalar execute o seguinte comando: 
+<pre><code>sudo apt update</code></pre> 
+<pre><code>sudo apt install -y apache2</code></pre>
+Para saber se o apache2 está ativo execute o seguinte comando:
+ <pre><code>sudo systemctl status apache2</code></pre>
+Caso esteja desativado execute o comando abaixo:
+<pre><code>sudo systemctl start apache2</code></pre>
+Agora para ver se estar fucionando siga os passos  abaixo:
+passo 1: Execute o comando <pre><code>sudo ip a</code></pre> para visualizar o IP da máquina. 
+passo 2: Procure por "enp0s3" logo abaixo vai esta o IP. exemplo 192.168.15.17/24
+passo 3: No navegador digite na URL o IP da máquina.
+Em seguida abrirá uma pagina do apache2. Pronto assim está fucionado o servidor de pagina web 
